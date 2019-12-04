@@ -7,7 +7,12 @@ import torch.nn.functional as F
 POLY_DEGREE = 42  # wow this tutorial is amazing ... 
 W_target = torch.randn(POLY_DEGREE, 1) * 5
 b_target = torch.randn(1) * 5
+'''
+I do not know what this code is doing
 
+
+
+'''
 
 def make_features(x):
     """Builds features i.e. a matrix with columns [x, x^2, x^3, x^4]."""
