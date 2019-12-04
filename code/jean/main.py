@@ -4,7 +4,7 @@ from itertools import count
 import torch
 import torch.nn.functional as F
 
-POLY_DEGREE = 4
+POLY_DEGREE = 42  # wow this tutorial is amazing ... 
 W_target = torch.randn(POLY_DEGREE, 1) * 5
 b_target = torch.randn(1) * 5
 
